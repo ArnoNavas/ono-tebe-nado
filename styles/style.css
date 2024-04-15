@@ -11,7 +11,7 @@
   height: 105px;
 }
 
-.nav__menu-list {
+.menu-list {
   display: flex;
   list-style-type: circle;
   text-underline-offset: 4px;
@@ -23,11 +23,11 @@
   margin-right: 36px;
 }
 
-.nav__menu-list li:first-child {
+.menu-list li:first-child {
   list-style: none;
 }
 
-.nav__menu-list li:first-child a {
+.menu-list li:first-child a {
   text-decoration: none;
 }
 
@@ -38,7 +38,7 @@
   letter-spacing: 0.01em;
   display: flex;
   flex-direction: column;
-  margin-left: 186px;
+  margin-left: 180px;
 }
 
 /* Cover section------------------------ */
@@ -74,35 +74,35 @@
   margin: 165px 50px 0px 50px;
 }
 
-.title__word-first {
+.title__word-it {
   letter-spacing: 30px;
 }
 
-.title__word-first span {
+.title__word-it span {
   letter-spacing: 60px;
 }
 
-.title__word-second {
+.title__word-your {
   justify-content: center;
   display: flex;
   letter-spacing: 30px;
   margin-top: 10px;
 }
 
-.title__word-second span {
+.title__word-your span {
   letter-spacing: 60px;
 }
 
-.title__word-third {
+.title__word-need {
   display: flex;
   justify-content: right;
 }
 
-.title__word-third span {
+.title__word-need span {
   letter-spacing: 30px;
 }
 
-.wordletter__third {
+.wordletter__need {
   letter-spacing: 60px !important;
 }
 
@@ -153,6 +153,7 @@
 .lots__cards {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .lots__card-style {
@@ -163,11 +164,11 @@
   padding: 51px 40px 48px 40px;
 }
 
-.card__first {
+.card__film {
   background-image: url(../images/card-lot-01.jpg);
 }
 
-.card__first::after {
+.card__film::after {
   content: "";
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
@@ -175,11 +176,11 @@
   inset: 0;
 }
 
-.card__second {
+.card__book {
   background-image: url(../images/card-lot-02.jpg);
 }
 
-.card__second::after {
+.card__book::after {
   content: "";
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
@@ -187,11 +188,11 @@
   inset: 0;
 }
 
-.card__third {
+.card__picture {
   background-image: url(../images/card-lot-03.jpg);
 }
 
-.card__third::after {
+.card__picture::after {
   content: "";
   position: absolute;
   background: rgba(0, 0, 0, 0.6);
@@ -221,11 +222,11 @@
   font-weight: 400;
 }
 
-.card__first .card__content {
+.card__film .card__content {
   row-gap: 238px;
 }
 
-.card__third .card__content {
+.card__picture .card__content {
   row-gap: 90px;
 }
 
